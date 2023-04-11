@@ -1,0 +1,30 @@
+{
+  "name": "code-coop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "bin": {
+    "code-coop": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abouhilalbadr/code-coop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abouhilalbadr/code-coop/issues"
+  },
+  "homepage": "https://github.com/abouhilalbadr/code-coop#readme",
+  "author": "Abouhilal badr <abouhilal.badr@gmail.com>",
+  "devDependencies": {
+    "@babel/core": "^7.21.4"
+  },
+  "dependencies": {
+    "cfonts": "^3.1.1",
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.5"
+  }
+}
